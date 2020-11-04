@@ -1,0 +1,17 @@
+.ex_three {
+
+  &__heading{
+    border-bottom: 0.1em solid gray;
+  }
+
+  &__more::after{
+    content: " >>";
+    margin-left: 0.5em;
+    color: #28a745;
+    cursor: pointer;
+  }
+
+  & img{
+    width: 80%;
+  }
+}
