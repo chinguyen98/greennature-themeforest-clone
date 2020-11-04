@@ -47,6 +47,7 @@ function IntroCarosel() {
   const slides = items.map(item => {
     return (
       <CarouselItem
+        style={{height:'20px'}}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}

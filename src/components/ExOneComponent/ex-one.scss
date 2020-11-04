@@ -1,0 +1,17 @@
+.ex-one {
+  &__child {
+    max-height: 20rem;
+
+    & h5 {
+      color: white;
+    }
+
+    & p {
+      text-align: justify;
+    }
+
+    & img {
+      width: 50%;
+    }
+  }
+}
