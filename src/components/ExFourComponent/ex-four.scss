@@ -1,0 +1,16 @@
+.ex-four {
+  background-color: #bcbebc;
+
+  &__item {
+    text-align: justify;
+
+    &__content {
+      font-size: 0.8em;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}

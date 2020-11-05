@@ -1,4 +1,5 @@
 import React from 'react';
+import ExFourComponent from './components/ExFourComponent';
 import ExOneComponent from './components/ExOneComponent';
 import ExThreeComponent from './components/ExThreeComponent';
 import ExTwoComponent from './components/ExTwoComponent';
@@ -15,6 +16,7 @@ function App() {
       <ExOneComponent />
       <ExTwoComponent />
       <ExThreeComponent />
+      <ExFourComponent />
     </div>
   );
 }
